@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+        let mobj = {
+            a: this,
+            myfunc: function (number) {
+                console.log("The Number is " + this);
+
+            }
+        }
+        mobj.myfunc();
+        console.log(mobj.a);
+        setTimeout(() => {
+            console.log("Devendra Raaj Bhatta")
+
+        }, 3000);
+        console.log("mai neeche wali script huuu")
+    </script>
+</head>
+
+<body>
+    <h1> I am learning js </h1>
+
+
+</body>
+
+</html>
